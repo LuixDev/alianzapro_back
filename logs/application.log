@@ -1,0 +1,574 @@
+2025-01-30T11:27:40.825-05:00  INFO 5892 --- [alianzapro] [main] c.b.alianzapro.AlianzaproApplication     : Starting AlianzaproApplication using Java 17.0.10 with PID 5892 (E:\Desktop\alianzapro\backend\Nueva carpeta\example-spring-boot-main\target\classes started by RYZEN in E:\Desktop\alianzapro\backend\Nueva carpeta\example-spring-boot-main)
+2025-01-30T11:27:40.832-05:00  INFO 5892 --- [alianzapro] [main] c.b.alianzapro.AlianzaproApplication     : No active profile set, falling back to 1 default profile: "default"
+2025-01-30T11:27:41.424-05:00  INFO 5892 --- [alianzapro] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-01-30T11:27:41.502-05:00  INFO 5892 --- [alianzapro] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 67 ms. Found 5 JPA repository interfaces.
+2025-01-30T11:27:42.007-05:00  INFO 5892 --- [alianzapro] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-01-30T11:27:42.017-05:00  INFO 5892 --- [alianzapro] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-01-30T11:27:42.017-05:00  INFO 5892 --- [alianzapro] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.30]
+2025-01-30T11:27:42.089-05:00  INFO 5892 --- [alianzapro] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-01-30T11:27:42.090-05:00  INFO 5892 --- [alianzapro] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1222 ms
+2025-01-30T11:27:42.224-05:00  INFO 5892 --- [alianzapro] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-01-30T11:27:42.267-05:00  INFO 5892 --- [alianzapro] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.3.Final
+2025-01-30T11:27:42.294-05:00  INFO 5892 --- [alianzapro] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-01-30T11:27:42.531-05:00  INFO 5892 --- [alianzapro] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-01-30T11:27:42.556-05:00  INFO 5892 --- [alianzapro] [main] com.zaxxer.hikari.HikariDataSource       : HikariCP - Starting...
+2025-01-30T11:27:44.342-05:00  INFO 5892 --- [alianzapro] [main] com.zaxxer.hikari.pool.HikariPool        : HikariCP - Added connection org.postgresql.jdbc.PgConnection@55638165
+2025-01-30T11:27:44.343-05:00  INFO 5892 --- [alianzapro] [main] com.zaxxer.hikari.HikariDataSource       : HikariCP - Start completed.
+2025-01-30T11:27:44.571-05:00  WARN 5892 --- [alianzapro] [main] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-01-30T11:27:45.557-05:00  INFO 5892 --- [alianzapro] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-01-30T11:27:45.561-05:00  INFO 5892 --- [alianzapro] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-01-30T11:27:45.994-05:00  WARN 5892 --- [alianzapro] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-01-30T11:27:46.017-05:00  WARN 5892 --- [alianzapro] [main] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: 921ec56d-ab9e-4abe-8237-b1233a409ea8
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2025-01-30T11:27:46.029-05:00  INFO 5892 --- [alianzapro] [main] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+2025-01-30T11:27:46.266-05:00 DEBUG 5892 --- [alianzapro] [main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with filters: DisableEncodeUrlFilter, WebAsyncManagerIntegrationFilter, SecurityContextHolderFilter, HeaderWriterFilter, LogoutFilter, RequestCacheAwareFilter, SecurityContextHolderAwareRequestFilter, AnonymousAuthenticationFilter, ExceptionTranslationFilter, AuthorizationFilter
+2025-01-30T11:27:46.425-05:00  WARN 5892 --- [alianzapro] [main] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2025-01-30T11:27:46.542-05:00  INFO 5892 --- [alianzapro] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-01-30T11:27:46.554-05:00  INFO 5892 --- [alianzapro] [main] c.b.alianzapro.AlianzaproApplication     : Started AlianzaproApplication in 6.042 seconds (process running for 6.298)
+2025-01-30T11:27:59.616-05:00  INFO 5892 --- [alianzapro] [http-nio-8080-exec-3] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-01-30T11:27:59.617-05:00  INFO 5892 --- [alianzapro] [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-01-30T11:27:59.619-05:00  INFO 5892 --- [alianzapro] [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2025-01-30T11:27:59.636-05:00 DEBUG 5892 --- [alianzapro] [http-nio-8080-exec-5] o.s.security.web.FilterChainProxy        : Securing GET /api/batallas/obtener
+2025-01-30T11:27:59.636-05:00 DEBUG 5892 --- [alianzapro] [http-nio-8080-exec-2] o.s.security.web.FilterChainProxy        : Securing GET /api/batallas/obtener
+2025-01-30T11:27:59.636-05:00 DEBUG 5892 --- [alianzapro] [http-nio-8080-exec-3] o.s.security.web.FilterChainProxy        : Securing GET /batallas/filtrar?tipoDeBatalla=Fuertes
+2025-01-30T11:27:59.636-05:00 DEBUG 5892 --- [alianzapro] [http-nio-8080-exec-1] o.s.security.web.FilterChainProxy        : Securing GET /batallas/filtrar?tipoDeBatalla=Fuertes
+2025-01-30T11:27:59.647-05:00 DEBUG 5892 --- [alianzapro] [http-nio-8080-exec-2] o.s.security.web.FilterChainProxy        : Secured GET /api/batallas/obtener
+2025-01-30T11:27:59.646-05:00 DEBUG 5892 --- [alianzapro] [http-nio-8080-exec-5] o.s.security.web.FilterChainProxy        : Secured GET /api/batallas/obtener
+2025-01-30T11:27:59.651-05:00 DEBUG 5892 --- [alianzapro] [http-nio-8080-exec-1] o.s.security.web.FilterChainProxy        : Secured GET /batallas/filtrar?tipoDeBatalla=Fuertes
+2025-01-30T11:27:59.651-05:00 DEBUG 5892 --- [alianzapro] [http-nio-8080-exec-3] o.s.security.web.FilterChainProxy        : Secured GET /batallas/filtrar?tipoDeBatalla=Fuertes
+2025-01-30T11:28:00.139-05:00 DEBUG 5892 --- [alianzapro] [http-nio-8080-exec-3] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2025-01-30T11:28:00.139-05:00 DEBUG 5892 --- [alianzapro] [http-nio-8080-exec-1] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2025-01-30T11:28:00.166-05:00 DEBUG 5892 --- [alianzapro] [http-nio-8080-exec-2] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2025-01-30T11:28:00.171-05:00 DEBUG 5892 --- [alianzapro] [http-nio-8080-exec-5] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2025-01-30T11:31:14.496-05:00 DEBUG 5892 --- [alianzapro] [http-nio-8080-exec-10] o.s.security.web.FilterChainProxy        : Securing OPTIONS /insertar
+2025-01-30T11:31:14.497-05:00 DEBUG 5892 --- [alianzapro] [http-nio-8080-exec-10] o.s.security.web.FilterChainProxy        : Secured OPTIONS /insertar
+2025-01-30T11:31:14.498-05:00 DEBUG 5892 --- [alianzapro] [http-nio-8080-exec-10] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2025-01-30T11:31:14.501-05:00 DEBUG 5892 --- [alianzapro] [http-nio-8080-exec-7] o.s.security.web.FilterChainProxy        : Securing POST /insertar
+2025-01-30T11:31:14.502-05:00 DEBUG 5892 --- [alianzapro] [http-nio-8080-exec-7] o.s.security.web.FilterChainProxy        : Secured POST /insertar
+2025-01-30T11:31:15.058-05:00 DEBUG 5892 --- [alianzapro] [http-nio-8080-exec-7] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2025-01-30T11:32:07.498-05:00 DEBUG 5892 --- [alianzapro] [http-nio-8080-exec-3] o.s.security.web.FilterChainProxy        : Securing GET /api/batallas/obtener
+2025-01-30T11:32:07.498-05:00 DEBUG 5892 --- [alianzapro] [http-nio-8080-exec-3] o.s.security.web.FilterChainProxy        : Secured GET /api/batallas/obtener
+2025-01-30T11:32:07.499-05:00 DEBUG 5892 --- [alianzapro] [http-nio-8080-exec-1] o.s.security.web.FilterChainProxy        : Securing GET /batallas/filtrar?tipoDeBatalla=Fuertes
+2025-01-30T11:32:07.499-05:00 DEBUG 5892 --- [alianzapro] [http-nio-8080-exec-1] o.s.security.web.FilterChainProxy        : Secured GET /batallas/filtrar?tipoDeBatalla=Fuertes
+2025-01-30T11:32:07.605-05:00 DEBUG 5892 --- [alianzapro] [http-nio-8080-exec-2] o.s.security.web.FilterChainProxy        : Securing GET /api/batallas/obtener
+2025-01-30T11:32:07.605-05:00 DEBUG 5892 --- [alianzapro] [http-nio-8080-exec-5] o.s.security.web.FilterChainProxy        : Securing GET /batallas/filtrar?tipoDeBatalla=Fuertes
+2025-01-30T11:32:07.606-05:00 DEBUG 5892 --- [alianzapro] [http-nio-8080-exec-2] o.s.security.web.FilterChainProxy        : Secured GET /api/batallas/obtener
+2025-01-30T11:32:07.606-05:00 DEBUG 5892 --- [alianzapro] [http-nio-8080-exec-5] o.s.security.web.FilterChainProxy        : Secured GET /batallas/filtrar?tipoDeBatalla=Fuertes
+2025-01-30T11:32:07.823-05:00 DEBUG 5892 --- [alianzapro] [http-nio-8080-exec-1] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2025-01-30T11:32:07.919-05:00 DEBUG 5892 --- [alianzapro] [http-nio-8080-exec-5] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2025-01-30T11:32:07.966-05:00 DEBUG 5892 --- [alianzapro] [http-nio-8080-exec-3] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2025-01-30T11:32:08.079-05:00 DEBUG 5892 --- [alianzapro] [http-nio-8080-exec-2] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2025-01-30T11:43:06.397-05:00 DEBUG 5892 --- [alianzapro] [http-nio-8080-exec-10] o.s.security.web.FilterChainProxy        : Securing GET /api/batallas/obtener
+2025-01-30T11:43:06.397-05:00 DEBUG 5892 --- [alianzapro] [http-nio-8080-exec-10] o.s.security.web.FilterChainProxy        : Secured GET /api/batallas/obtener
+2025-01-30T11:43:06.398-05:00 DEBUG 5892 --- [alianzapro] [http-nio-8080-exec-7] o.s.security.web.FilterChainProxy        : Securing GET /batallas/filtrar?tipoDeBatalla=Fuertes
+2025-01-30T11:43:06.398-05:00 DEBUG 5892 --- [alianzapro] [http-nio-8080-exec-7] o.s.security.web.FilterChainProxy        : Secured GET /batallas/filtrar?tipoDeBatalla=Fuertes
+2025-01-30T11:43:06.459-05:00 DEBUG 5892 --- [alianzapro] [http-nio-8080-exec-1] o.s.security.web.FilterChainProxy        : Securing GET /api/batallas/obtener
+2025-01-30T11:43:06.459-05:00 DEBUG 5892 --- [alianzapro] [http-nio-8080-exec-5] o.s.security.web.FilterChainProxy        : Securing GET /batallas/filtrar?tipoDeBatalla=Fuertes
+2025-01-30T11:43:06.460-05:00 DEBUG 5892 --- [alianzapro] [http-nio-8080-exec-1] o.s.security.web.FilterChainProxy        : Secured GET /api/batallas/obtener
+2025-01-30T11:43:06.461-05:00 DEBUG 5892 --- [alianzapro] [http-nio-8080-exec-5] o.s.security.web.FilterChainProxy        : Secured GET /batallas/filtrar?tipoDeBatalla=Fuertes
+2025-01-30T11:43:06.721-05:00 DEBUG 5892 --- [alianzapro] [http-nio-8080-exec-7] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2025-01-30T11:43:06.776-05:00 DEBUG 5892 --- [alianzapro] [http-nio-8080-exec-5] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2025-01-30T11:43:06.872-05:00 DEBUG 5892 --- [alianzapro] [http-nio-8080-exec-10] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2025-01-30T11:43:06.932-05:00 DEBUG 5892 --- [alianzapro] [http-nio-8080-exec-1] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2025-01-30T11:45:41.598-05:00 DEBUG 5892 --- [alianzapro] [http-nio-8080-exec-8] o.s.security.web.FilterChainProxy        : Securing GET /api/logins/cuentas?
+2025-01-30T11:45:41.599-05:00 DEBUG 5892 --- [alianzapro] [http-nio-8080-exec-8] o.s.security.web.FilterChainProxy        : Secured GET /api/logins/cuentas?
+2025-01-30T11:45:42.101-05:00 DEBUG 5892 --- [alianzapro] [http-nio-8080-exec-8] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2025-01-30T11:45:53.199-05:00 DEBUG 5892 --- [alianzapro] [http-nio-8080-exec-4] o.s.security.web.FilterChainProxy        : Securing GET /formularios?
+2025-01-30T11:45:53.200-05:00 DEBUG 5892 --- [alianzapro] [http-nio-8080-exec-4] o.s.security.web.FilterChainProxy        : Secured GET /formularios?
+2025-01-30T11:45:53.725-05:00 DEBUG 5892 --- [alianzapro] [http-nio-8080-exec-4] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2025-01-30T11:46:34.089-05:00 DEBUG 5892 --- [alianzapro] [http-nio-8080-exec-7] o.s.security.web.FilterChainProxy        : Securing GET /api/logins/cuentas?
+2025-01-30T11:46:34.090-05:00 DEBUG 5892 --- [alianzapro] [http-nio-8080-exec-7] o.s.security.web.FilterChainProxy        : Secured GET /api/logins/cuentas?
+2025-01-30T11:46:34.561-05:00 DEBUG 5892 --- [alianzapro] [http-nio-8080-exec-7] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2025-01-30T11:49:23.361-05:00 DEBUG 5892 --- [alianzapro] [http-nio-8080-exec-10] o.s.security.web.FilterChainProxy        : Securing GET /formularios?
+2025-01-30T11:49:23.362-05:00 DEBUG 5892 --- [alianzapro] [http-nio-8080-exec-10] o.s.security.web.FilterChainProxy        : Secured GET /formularios?
+2025-01-30T11:49:23.832-05:00 DEBUG 5892 --- [alianzapro] [http-nio-8080-exec-10] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2025-01-30T11:50:57.231-05:00 DEBUG 5892 --- [alianzapro] [http-nio-8080-exec-3] o.s.security.web.FilterChainProxy        : Securing GET /api/logins/cuentas?
+2025-01-30T11:50:57.231-05:00 DEBUG 5892 --- [alianzapro] [http-nio-8080-exec-3] o.s.security.web.FilterChainProxy        : Secured GET /api/logins/cuentas?
+2025-01-30T11:50:57.717-05:00 DEBUG 5892 --- [alianzapro] [http-nio-8080-exec-3] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2025-01-30T11:51:56.895-05:00 DEBUG 5892 --- [alianzapro] [http-nio-8080-exec-2] o.s.security.web.FilterChainProxy        : Securing GET /api/batallas/obtener
+2025-01-30T11:51:56.896-05:00 DEBUG 5892 --- [alianzapro] [http-nio-8080-exec-2] o.s.security.web.FilterChainProxy        : Secured GET /api/batallas/obtener
+2025-01-30T11:51:56.897-05:00 DEBUG 5892 --- [alianzapro] [http-nio-8080-exec-9] o.s.security.web.FilterChainProxy        : Securing GET /batallas/filtrar?tipoDeBatalla=Fuertes
+2025-01-30T11:51:56.898-05:00 DEBUG 5892 --- [alianzapro] [http-nio-8080-exec-9] o.s.security.web.FilterChainProxy        : Secured GET /batallas/filtrar?tipoDeBatalla=Fuertes
+2025-01-30T11:51:56.957-05:00 DEBUG 5892 --- [alianzapro] [http-nio-8080-exec-8] o.s.security.web.FilterChainProxy        : Securing GET /batallas/filtrar?tipoDeBatalla=Fuertes
+2025-01-30T11:51:56.957-05:00 DEBUG 5892 --- [alianzapro] [http-nio-8080-exec-6] o.s.security.web.FilterChainProxy        : Securing GET /api/batallas/obtener
+2025-01-30T11:51:56.958-05:00 DEBUG 5892 --- [alianzapro] [http-nio-8080-exec-8] o.s.security.web.FilterChainProxy        : Secured GET /batallas/filtrar?tipoDeBatalla=Fuertes
+2025-01-30T11:51:56.959-05:00 DEBUG 5892 --- [alianzapro] [http-nio-8080-exec-6] o.s.security.web.FilterChainProxy        : Secured GET /api/batallas/obtener
+2025-01-30T11:51:57.229-05:00 DEBUG 5892 --- [alianzapro] [http-nio-8080-exec-9] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2025-01-30T11:51:57.290-05:00 DEBUG 5892 --- [alianzapro] [http-nio-8080-exec-8] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2025-01-30T11:51:57.400-05:00 DEBUG 5892 --- [alianzapro] [http-nio-8080-exec-2] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2025-01-30T11:51:57.436-05:00 DEBUG 5892 --- [alianzapro] [http-nio-8080-exec-6] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2025-01-30T12:10:59.770-05:00 DEBUG 5892 --- [alianzapro] [http-nio-8080-exec-1] o.s.security.web.FilterChainProxy        : Securing GET /api/logins/cuentas?
+2025-01-30T12:10:59.771-05:00 DEBUG 5892 --- [alianzapro] [http-nio-8080-exec-1] o.s.security.web.FilterChainProxy        : Secured GET /api/logins/cuentas?
+2025-01-30T12:11:00.251-05:00 DEBUG 5892 --- [alianzapro] [http-nio-8080-exec-1] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2025-01-30T12:11:09.059-05:00 DEBUG 5892 --- [alianzapro] [http-nio-8080-exec-3] o.s.security.web.FilterChainProxy        : Securing GET /formularios?
+2025-01-30T12:11:09.059-05:00 DEBUG 5892 --- [alianzapro] [http-nio-8080-exec-3] o.s.security.web.FilterChainProxy        : Secured GET /formularios?
+2025-01-30T12:11:09.527-05:00 DEBUG 5892 --- [alianzapro] [http-nio-8080-exec-3] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2025-01-30T12:11:28.750-05:00 DEBUG 5892 --- [alianzapro] [http-nio-8080-exec-9] o.s.security.web.FilterChainProxy        : Securing GET /api/batallas/obtener
+2025-01-30T12:11:28.751-05:00 DEBUG 5892 --- [alianzapro] [http-nio-8080-exec-9] o.s.security.web.FilterChainProxy        : Secured GET /api/batallas/obtener
+2025-01-30T12:11:28.752-05:00 DEBUG 5892 --- [alianzapro] [http-nio-8080-exec-8] o.s.security.web.FilterChainProxy        : Securing GET /batallas/filtrar?tipoDeBatalla=Fuertes
+2025-01-30T12:11:28.752-05:00 DEBUG 5892 --- [alianzapro] [http-nio-8080-exec-8] o.s.security.web.FilterChainProxy        : Secured GET /batallas/filtrar?tipoDeBatalla=Fuertes
+2025-01-30T12:11:28.816-05:00 DEBUG 5892 --- [alianzapro] [http-nio-8080-exec-6] o.s.security.web.FilterChainProxy        : Securing GET /batallas/filtrar?tipoDeBatalla=Fuertes
+2025-01-30T12:11:28.816-05:00 DEBUG 5892 --- [alianzapro] [http-nio-8080-exec-2] o.s.security.web.FilterChainProxy        : Securing GET /api/batallas/obtener
+2025-01-30T12:11:28.817-05:00 DEBUG 5892 --- [alianzapro] [http-nio-8080-exec-6] o.s.security.web.FilterChainProxy        : Secured GET /batallas/filtrar?tipoDeBatalla=Fuertes
+2025-01-30T12:11:28.817-05:00 DEBUG 5892 --- [alianzapro] [http-nio-8080-exec-2] o.s.security.web.FilterChainProxy        : Secured GET /api/batallas/obtener
+2025-01-30T12:11:29.076-05:00 DEBUG 5892 --- [alianzapro] [http-nio-8080-exec-8] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2025-01-30T12:11:29.135-05:00 DEBUG 5892 --- [alianzapro] [http-nio-8080-exec-6] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2025-01-30T12:11:29.237-05:00 DEBUG 5892 --- [alianzapro] [http-nio-8080-exec-9] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2025-01-30T12:11:29.301-05:00 DEBUG 5892 --- [alianzapro] [http-nio-8080-exec-2] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2025-01-30T12:12:55.020-05:00 DEBUG 5892 --- [alianzapro] [http-nio-8080-exec-3] o.s.security.web.FilterChainProxy        : Securing GET /batallas/filtrar?tipoDeBatalla=Fuertes
+2025-01-30T12:12:55.020-05:00 DEBUG 5892 --- [alianzapro] [http-nio-8080-exec-1] o.s.security.web.FilterChainProxy        : Securing GET /api/batallas/obtener
+2025-01-30T12:12:55.021-05:00 DEBUG 5892 --- [alianzapro] [http-nio-8080-exec-3] o.s.security.web.FilterChainProxy        : Secured GET /batallas/filtrar?tipoDeBatalla=Fuertes
+2025-01-30T12:12:55.021-05:00 DEBUG 5892 --- [alianzapro] [http-nio-8080-exec-1] o.s.security.web.FilterChainProxy        : Secured GET /api/batallas/obtener
+2025-01-30T12:12:55.347-05:00 DEBUG 5892 --- [alianzapro] [http-nio-8080-exec-3] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2025-01-30T12:12:55.501-05:00 DEBUG 5892 --- [alianzapro] [http-nio-8080-exec-1] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2025-01-30T12:14:57.978-05:00 DEBUG 5892 --- [alianzapro] [http-nio-8080-exec-9] o.s.security.web.FilterChainProxy        : Securing GET /batallas/filtrar?tipoDeBatalla=Mayo
+2025-01-30T12:14:57.979-05:00 DEBUG 5892 --- [alianzapro] [http-nio-8080-exec-9] o.s.security.web.FilterChainProxy        : Secured GET /batallas/filtrar?tipoDeBatalla=Mayo
+2025-01-30T12:14:58.284-05:00 DEBUG 5892 --- [alianzapro] [http-nio-8080-exec-9] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2025-01-30T12:15:00.045-05:00 DEBUG 5892 --- [alianzapro] [http-nio-8080-exec-2] o.s.security.web.FilterChainProxy        : Securing GET /api/batallas/obtener
+2025-01-30T12:15:00.046-05:00 DEBUG 5892 --- [alianzapro] [http-nio-8080-exec-2] o.s.security.web.FilterChainProxy        : Secured GET /api/batallas/obtener
+2025-01-30T12:15:00.046-05:00 DEBUG 5892 --- [alianzapro] [http-nio-8080-exec-4] o.s.security.web.FilterChainProxy        : Securing GET /batallas/filtrar?tipoDeBatalla=Fuertes
+2025-01-30T12:15:00.047-05:00 DEBUG 5892 --- [alianzapro] [http-nio-8080-exec-4] o.s.security.web.FilterChainProxy        : Secured GET /batallas/filtrar?tipoDeBatalla=Fuertes
+2025-01-30T12:15:00.102-05:00 DEBUG 5892 --- [alianzapro] [http-nio-8080-exec-10] o.s.security.web.FilterChainProxy        : Securing GET /batallas/filtrar?tipoDeBatalla=Fuertes
+2025-01-30T12:15:00.102-05:00 DEBUG 5892 --- [alianzapro] [http-nio-8080-exec-7] o.s.security.web.FilterChainProxy        : Securing GET /api/batallas/obtener
+2025-01-30T12:15:00.103-05:00 DEBUG 5892 --- [alianzapro] [http-nio-8080-exec-10] o.s.security.web.FilterChainProxy        : Secured GET /batallas/filtrar?tipoDeBatalla=Fuertes
+2025-01-30T12:15:00.103-05:00 DEBUG 5892 --- [alianzapro] [http-nio-8080-exec-7] o.s.security.web.FilterChainProxy        : Secured GET /api/batallas/obtener
+2025-01-30T12:15:00.376-05:00 DEBUG 5892 --- [alianzapro] [http-nio-8080-exec-4] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2025-01-30T12:15:00.411-05:00 DEBUG 5892 --- [alianzapro] [http-nio-8080-exec-10] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2025-01-30T12:15:00.529-05:00 DEBUG 5892 --- [alianzapro] [http-nio-8080-exec-2] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2025-01-30T12:15:00.569-05:00 DEBUG 5892 --- [alianzapro] [http-nio-8080-exec-7] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2025-01-30T12:15:01.567-05:00 DEBUG 5892 --- [alianzapro] [http-nio-8080-exec-5] o.s.security.web.FilterChainProxy        : Securing GET /api/batallas/obtener
+2025-01-30T12:15:01.567-05:00 DEBUG 5892 --- [alianzapro] [http-nio-8080-exec-3] o.s.security.web.FilterChainProxy        : Securing GET /batallas/filtrar?tipoDeBatalla=Fuertes
+2025-01-30T12:15:01.568-05:00 DEBUG 5892 --- [alianzapro] [http-nio-8080-exec-5] o.s.security.web.FilterChainProxy        : Secured GET /api/batallas/obtener
+2025-01-30T12:15:01.569-05:00 DEBUG 5892 --- [alianzapro] [http-nio-8080-exec-3] o.s.security.web.FilterChainProxy        : Secured GET /batallas/filtrar?tipoDeBatalla=Fuertes
+2025-01-30T12:15:01.632-05:00 DEBUG 5892 --- [alianzapro] [http-nio-8080-exec-6] o.s.security.web.FilterChainProxy        : Securing GET /batallas/filtrar?tipoDeBatalla=Fuertes
+2025-01-30T12:15:01.632-05:00 DEBUG 5892 --- [alianzapro] [http-nio-8080-exec-1] o.s.security.web.FilterChainProxy        : Securing GET /api/batallas/obtener
+2025-01-30T12:15:01.633-05:00 DEBUG 5892 --- [alianzapro] [http-nio-8080-exec-6] o.s.security.web.FilterChainProxy        : Secured GET /batallas/filtrar?tipoDeBatalla=Fuertes
+2025-01-30T12:15:01.633-05:00 DEBUG 5892 --- [alianzapro] [http-nio-8080-exec-1] o.s.security.web.FilterChainProxy        : Secured GET /api/batallas/obtener
+2025-01-30T12:15:01.889-05:00 DEBUG 5892 --- [alianzapro] [http-nio-8080-exec-3] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2025-01-30T12:15:01.958-05:00 DEBUG 5892 --- [alianzapro] [http-nio-8080-exec-6] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2025-01-30T12:15:02.047-05:00 DEBUG 5892 --- [alianzapro] [http-nio-8080-exec-5] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2025-01-30T12:15:02.110-05:00 DEBUG 5892 --- [alianzapro] [http-nio-8080-exec-1] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2025-01-30T12:15:06.151-05:00 DEBUG 5892 --- [alianzapro] [http-nio-8080-exec-9] o.s.security.web.FilterChainProxy        : Securing GET /api/batallas/obtener
+2025-01-30T12:15:06.152-05:00 DEBUG 5892 --- [alianzapro] [http-nio-8080-exec-4] o.s.security.web.FilterChainProxy        : Securing GET /batallas/filtrar?tipoDeBatalla=Fuertes
+2025-01-30T12:15:06.152-05:00 DEBUG 5892 --- [alianzapro] [http-nio-8080-exec-9] o.s.security.web.FilterChainProxy        : Secured GET /api/batallas/obtener
+2025-01-30T12:15:06.153-05:00 DEBUG 5892 --- [alianzapro] [http-nio-8080-exec-4] o.s.security.web.FilterChainProxy        : Secured GET /batallas/filtrar?tipoDeBatalla=Fuertes
+2025-01-30T12:15:06.215-05:00 DEBUG 5892 --- [alianzapro] [http-nio-8080-exec-2] o.s.security.web.FilterChainProxy        : Securing GET /batallas/filtrar?tipoDeBatalla=Fuertes
+2025-01-30T12:15:06.215-05:00 DEBUG 5892 --- [alianzapro] [http-nio-8080-exec-10] o.s.security.web.FilterChainProxy        : Securing GET /api/batallas/obtener
+2025-01-30T12:15:06.216-05:00 DEBUG 5892 --- [alianzapro] [http-nio-8080-exec-2] o.s.security.web.FilterChainProxy        : Secured GET /batallas/filtrar?tipoDeBatalla=Fuertes
+2025-01-30T12:15:06.216-05:00 DEBUG 5892 --- [alianzapro] [http-nio-8080-exec-10] o.s.security.web.FilterChainProxy        : Secured GET /api/batallas/obtener
+2025-01-30T12:15:06.481-05:00 DEBUG 5892 --- [alianzapro] [http-nio-8080-exec-4] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2025-01-30T12:15:06.555-05:00 DEBUG 5892 --- [alianzapro] [http-nio-8080-exec-2] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2025-01-30T12:15:06.624-05:00 DEBUG 5892 --- [alianzapro] [http-nio-8080-exec-9] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2025-01-30T12:15:06.696-05:00 DEBUG 5892 --- [alianzapro] [http-nio-8080-exec-10] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2025-01-30T12:15:09.216-05:00 DEBUG 5892 --- [alianzapro] [http-nio-8080-exec-7] o.s.security.web.FilterChainProxy        : Securing GET /api/batallas/obtener
+2025-01-30T12:15:09.216-05:00 DEBUG 5892 --- [alianzapro] [http-nio-8080-exec-3] o.s.security.web.FilterChainProxy        : Securing GET /batallas/filtrar?tipoDeBatalla=Fuertes
+2025-01-30T12:15:09.217-05:00 DEBUG 5892 --- [alianzapro] [http-nio-8080-exec-7] o.s.security.web.FilterChainProxy        : Secured GET /api/batallas/obtener
+2025-01-30T12:15:09.217-05:00 DEBUG 5892 --- [alianzapro] [http-nio-8080-exec-3] o.s.security.web.FilterChainProxy        : Secured GET /batallas/filtrar?tipoDeBatalla=Fuertes
+2025-01-30T12:15:09.265-05:00 DEBUG 5892 --- [alianzapro] [http-nio-8080-exec-5] o.s.security.web.FilterChainProxy        : Securing GET /batallas/filtrar?tipoDeBatalla=Fuertes
+2025-01-30T12:15:09.265-05:00 DEBUG 5892 --- [alianzapro] [http-nio-8080-exec-6] o.s.security.web.FilterChainProxy        : Securing GET /api/batallas/obtener
+2025-01-30T12:15:09.267-05:00 DEBUG 5892 --- [alianzapro] [http-nio-8080-exec-6] o.s.security.web.FilterChainProxy        : Secured GET /api/batallas/obtener
+2025-01-30T12:15:09.267-05:00 DEBUG 5892 --- [alianzapro] [http-nio-8080-exec-5] o.s.security.web.FilterChainProxy        : Secured GET /batallas/filtrar?tipoDeBatalla=Fuertes
+2025-01-30T12:15:09.535-05:00 DEBUG 5892 --- [alianzapro] [http-nio-8080-exec-3] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2025-01-30T12:15:09.580-05:00 DEBUG 5892 --- [alianzapro] [http-nio-8080-exec-5] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2025-01-30T12:15:09.687-05:00 DEBUG 5892 --- [alianzapro] [http-nio-8080-exec-7] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2025-01-30T12:15:09.739-05:00 DEBUG 5892 --- [alianzapro] [http-nio-8080-exec-6] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2025-01-30T12:15:14.441-05:00 DEBUG 5892 --- [alianzapro] [http-nio-8080-exec-1] o.s.security.web.FilterChainProxy        : Securing GET /formularios?
+2025-01-30T12:15:14.442-05:00 DEBUG 5892 --- [alianzapro] [http-nio-8080-exec-1] o.s.security.web.FilterChainProxy        : Secured GET /formularios?
+2025-01-30T12:15:14.941-05:00 DEBUG 5892 --- [alianzapro] [http-nio-8080-exec-1] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2025-01-30T12:15:18.699-05:00 DEBUG 5892 --- [alianzapro] [http-nio-8080-exec-8] o.s.security.web.FilterChainProxy        : Securing GET /api/logins/cuentas?
+2025-01-30T12:15:18.700-05:00 DEBUG 5892 --- [alianzapro] [http-nio-8080-exec-8] o.s.security.web.FilterChainProxy        : Secured GET /api/logins/cuentas?
+2025-01-30T12:15:19.167-05:00 DEBUG 5892 --- [alianzapro] [http-nio-8080-exec-8] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2025-01-30T12:15:40.540-05:00 DEBUG 5892 --- [alianzapro] [http-nio-8080-exec-4] o.s.security.web.FilterChainProxy        : Securing GET /api/batallas/obtener
+2025-01-30T12:15:40.540-05:00 DEBUG 5892 --- [alianzapro] [http-nio-8080-exec-2] o.s.security.web.FilterChainProxy        : Securing GET /batallas/filtrar?tipoDeBatalla=Fuertes
+2025-01-30T12:15:40.541-05:00 DEBUG 5892 --- [alianzapro] [http-nio-8080-exec-4] o.s.security.web.FilterChainProxy        : Secured GET /api/batallas/obtener
+2025-01-30T12:15:40.541-05:00 DEBUG 5892 --- [alianzapro] [http-nio-8080-exec-2] o.s.security.web.FilterChainProxy        : Secured GET /batallas/filtrar?tipoDeBatalla=Fuertes
+2025-01-30T12:15:40.606-05:00 DEBUG 5892 --- [alianzapro] [http-nio-8080-exec-10] o.s.security.web.FilterChainProxy        : Securing GET /batallas/filtrar?tipoDeBatalla=Fuertes
+2025-01-30T12:15:40.606-05:00 DEBUG 5892 --- [alianzapro] [http-nio-8080-exec-9] o.s.security.web.FilterChainProxy        : Securing GET /api/batallas/obtener
+2025-01-30T12:15:40.607-05:00 DEBUG 5892 --- [alianzapro] [http-nio-8080-exec-10] o.s.security.web.FilterChainProxy        : Secured GET /batallas/filtrar?tipoDeBatalla=Fuertes
+2025-01-30T12:15:40.607-05:00 DEBUG 5892 --- [alianzapro] [http-nio-8080-exec-9] o.s.security.web.FilterChainProxy        : Secured GET /api/batallas/obtener
+2025-01-30T12:15:40.858-05:00 DEBUG 5892 --- [alianzapro] [http-nio-8080-exec-2] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2025-01-30T12:15:40.921-05:00 DEBUG 5892 --- [alianzapro] [http-nio-8080-exec-10] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2025-01-30T12:15:41.016-05:00 DEBUG 5892 --- [alianzapro] [http-nio-8080-exec-4] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2025-01-30T12:15:41.070-05:00 DEBUG 5892 --- [alianzapro] [http-nio-8080-exec-9] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2025-02-01T17:37:50.391-05:00  INFO 21164 --- [alianzapro] [main] c.b.alianzapro.AlianzaproApplication     : Starting AlianzaproApplication using Java 17.0.10 with PID 21164 (E:\Desktop\Nueva carpeta (20)\alianzapro_back-main\target\classes started by RYZEN in E:\Desktop\Nueva carpeta (20)\alianzapro_back-main)
+2025-02-01T17:37:50.394-05:00  INFO 21164 --- [alianzapro] [main] c.b.alianzapro.AlianzaproApplication     : No active profile set, falling back to 1 default profile: "default"
+2025-02-01T17:37:50.911-05:00  INFO 21164 --- [alianzapro] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-02-01T17:37:50.970-05:00  INFO 21164 --- [alianzapro] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 52 ms. Found 5 JPA repository interfaces.
+2025-02-01T17:37:51.442-05:00  INFO 21164 --- [alianzapro] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-02-01T17:37:51.453-05:00  INFO 21164 --- [alianzapro] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-02-01T17:37:51.454-05:00  INFO 21164 --- [alianzapro] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.30]
+2025-02-01T17:37:51.507-05:00  INFO 21164 --- [alianzapro] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-02-01T17:37:51.508-05:00  INFO 21164 --- [alianzapro] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1079 ms
+2025-02-01T17:37:51.623-05:00  INFO 21164 --- [alianzapro] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-02-01T17:37:51.662-05:00  INFO 21164 --- [alianzapro] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.3.Final
+2025-02-01T17:37:51.689-05:00  INFO 21164 --- [alianzapro] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-02-01T17:37:51.899-05:00  INFO 21164 --- [alianzapro] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-02-01T17:37:51.924-05:00  INFO 21164 --- [alianzapro] [main] com.zaxxer.hikari.HikariDataSource       : HikariCP - Starting...
+2025-02-01T17:37:55.553-05:00  INFO 21164 --- [alianzapro] [main] com.zaxxer.hikari.pool.HikariPool        : HikariCP - Added connection org.postgresql.jdbc.PgConnection@531a716c
+2025-02-01T17:37:55.554-05:00  INFO 21164 --- [alianzapro] [main] com.zaxxer.hikari.HikariDataSource       : HikariCP - Start completed.
+2025-02-01T17:37:55.741-05:00  WARN 21164 --- [alianzapro] [main] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-02-01T17:37:56.730-05:00  INFO 21164 --- [alianzapro] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-02-01T17:37:56.733-05:00  INFO 21164 --- [alianzapro] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-02-01T17:37:57.057-05:00  WARN 21164 --- [alianzapro] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-02-01T17:37:57.075-05:00  WARN 21164 --- [alianzapro] [main] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: 7971dc43-1ed6-4df6-978c-2c25592677e9
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2025-02-01T17:37:57.086-05:00  INFO 21164 --- [alianzapro] [main] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+2025-02-01T17:37:57.280-05:00 DEBUG 21164 --- [alianzapro] [main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with filters: DisableEncodeUrlFilter, WebAsyncManagerIntegrationFilter, SecurityContextHolderFilter, HeaderWriterFilter, LogoutFilter, RequestCacheAwareFilter, SecurityContextHolderAwareRequestFilter, AnonymousAuthenticationFilter, ExceptionTranslationFilter, AuthorizationFilter
+2025-02-01T17:37:57.385-05:00  WARN 21164 --- [alianzapro] [main] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2025-02-01T17:37:57.456-05:00  INFO 21164 --- [alianzapro] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-02-01T17:37:57.464-05:00  INFO 21164 --- [alianzapro] [main] c.b.alianzapro.AlianzaproApplication     : Started AlianzaproApplication in 7.394 seconds (process running for 7.646)
+2025-02-01T17:38:15.201-05:00  INFO 21164 --- [alianzapro] [http-nio-8080-exec-3] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-02-01T17:38:15.201-05:00  INFO 21164 --- [alianzapro] [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-02-01T17:38:15.202-05:00  INFO 21164 --- [alianzapro] [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2025-02-01T17:38:15.215-05:00 DEBUG 21164 --- [alianzapro] [http-nio-8080-exec-3] o.s.security.web.FilterChainProxy        : Securing GET /api/batallas/obtener
+2025-02-01T17:38:15.222-05:00 DEBUG 21164 --- [alianzapro] [http-nio-8080-exec-3] o.s.security.web.FilterChainProxy        : Secured GET /api/batallas/obtener
+2025-02-01T17:38:15.876-05:00 DEBUG 21164 --- [alianzapro] [http-nio-8080-exec-3] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2025-02-01T17:39:50.902-05:00  INFO 21164 --- [alianzapro] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-02-01T17:39:50.904-05:00  INFO 21164 --- [alianzapro] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariCP - Shutdown initiated...
+2025-02-01T17:39:50.907-05:00  INFO 21164 --- [alianzapro] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariCP - Shutdown completed.
+2025-02-01T20:39:33.445-05:00  INFO 32756 --- [alianzapro] [main] c.b.alianzapro.AlianzaproApplication     : Starting AlianzaproApplication using Java 17.0.10 with PID 32756 (E:\Desktop\Nueva carpeta (20)\alianzapro_back-main\target\classes started by RYZEN in E:\Desktop\Nueva carpeta (20)\alianzapro_back-main)
+2025-02-01T20:39:33.449-05:00  INFO 32756 --- [alianzapro] [main] c.b.alianzapro.AlianzaproApplication     : No active profile set, falling back to 1 default profile: "default"
+2025-02-01T20:39:33.999-05:00  INFO 32756 --- [alianzapro] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-02-01T20:39:34.060-05:00  INFO 32756 --- [alianzapro] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 53 ms. Found 5 JPA repository interfaces.
+2025-02-01T20:39:34.528-05:00  INFO 32756 --- [alianzapro] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-02-01T20:39:34.537-05:00  INFO 32756 --- [alianzapro] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-02-01T20:39:34.538-05:00  INFO 32756 --- [alianzapro] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.30]
+2025-02-01T20:39:34.589-05:00  INFO 32756 --- [alianzapro] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-02-01T20:39:34.590-05:00  INFO 32756 --- [alianzapro] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1102 ms
+2025-02-01T20:39:34.707-05:00  INFO 32756 --- [alianzapro] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-02-01T20:39:34.747-05:00  INFO 32756 --- [alianzapro] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.3.Final
+2025-02-01T20:39:34.775-05:00  INFO 32756 --- [alianzapro] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-02-01T20:39:34.987-05:00  INFO 32756 --- [alianzapro] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-02-01T20:39:35.009-05:00  INFO 32756 --- [alianzapro] [main] com.zaxxer.hikari.HikariDataSource       : HikariCP - Starting...
+2025-02-01T20:39:42.595-05:00  INFO 32756 --- [alianzapro] [main] com.zaxxer.hikari.pool.HikariPool        : HikariCP - Added connection org.postgresql.jdbc.PgConnection@75cacb3e
+2025-02-01T20:39:42.597-05:00  INFO 32756 --- [alianzapro] [main] com.zaxxer.hikari.HikariDataSource       : HikariCP - Start completed.
+2025-02-01T20:39:57.607-05:00  WARN 32756 --- [alianzapro] [HikariCP housekeeper] com.zaxxer.hikari.pool.ProxyLeakTask     : Connection leak detection triggered for org.postgresql.jdbc.PgConnection@75cacb3e on thread main, stack trace follows
+
+java.lang.Exception: Apparent connection leak detected
+	at com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:128) ~[HikariCP-5.0.1.jar:na]
+	at org.hibernate.engine.jdbc.connections.internal.DatasourceConnectionProviderImpl.getConnection(DatasourceConnectionProviderImpl.java:122) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess.obtainConnection(JdbcEnvironmentInitiator.java:439) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
+	at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcIsolationDelegate.delegateWork(JdbcIsolationDelegate.java:61) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.getJdbcEnvironmentUsingJdbcMetadata(JdbcEnvironmentInitiator.java:292) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:124) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:78) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
+	at org.hibernate.boot.registry.internal.StandardServiceRegistryImpl.initiateService(StandardServiceRegistryImpl.java:130) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.createService(AbstractServiceRegistryImpl.java:263) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:238) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:215) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
+	at org.hibernate.boot.model.relational.Database.<init>(Database.java:45) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
+	at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.getDatabase(InFlightMetadataCollectorImpl.java:221) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
+	at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.<init>(InFlightMetadataCollectorImpl.java:189) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
+	at org.hibernate.boot.model.process.spi.MetadataBuildingProcess.complete(MetadataBuildingProcess.java:171) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.metadata(EntityManagerFactoryBuilderImpl.java:1431) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1502) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:75) ~[spring-orm-6.1.13.jar:6.1.13]
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:390) ~[spring-orm-6.1.13.jar:6.1.13]
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:409) ~[spring-orm-6.1.13.jar:6.1.13]
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:396) ~[spring-orm-6.1.13.jar:6.1.13]
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:366) ~[spring-orm-6.1.13.jar:6.1.13]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1853) ~[spring-beans-6.1.13.jar:6.1.13]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1802) ~[spring-beans-6.1.13.jar:6.1.13]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:600) ~[spring-beans-6.1.13.jar:6.1.13]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:522) ~[spring-beans-6.1.13.jar:6.1.13]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:337) ~[spring-beans-6.1.13.jar:6.1.13]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-6.1.13.jar:6.1.13]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:335) ~[spring-beans-6.1.13.jar:6.1.13]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:205) ~[spring-beans-6.1.13.jar:6.1.13]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:954) ~[spring-context-6.1.13.jar:6.1.13]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:625) ~[spring-context-6.1.13.jar:6.1.13]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146) ~[spring-boot-3.3.4.jar:3.3.4]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754) ~[spring-boot-3.3.4.jar:3.3.4]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:456) ~[spring-boot-3.3.4.jar:3.3.4]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:335) ~[spring-boot-3.3.4.jar:3.3.4]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1363) ~[spring-boot-3.3.4.jar:3.3.4]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1352) ~[spring-boot-3.3.4.jar:3.3.4]
+	at com.backend.alianzapro.AlianzaproApplication.main(AlianzaproApplication.java:10) ~[classes/:na]
+
+2025-02-01T20:40:19.819-05:00  INFO 31440 --- [alianzapro] [main] c.b.alianzapro.AlianzaproApplication     : Starting AlianzaproApplication using Java 17.0.10 with PID 31440 (E:\Desktop\Nueva carpeta (20)\alianzapro_back-main\target\classes started by RYZEN in E:\Desktop\Nueva carpeta (20)\alianzapro_back-main)
+2025-02-01T20:40:19.821-05:00  INFO 31440 --- [alianzapro] [main] c.b.alianzapro.AlianzaproApplication     : No active profile set, falling back to 1 default profile: "default"
+2025-02-01T20:40:20.324-05:00  INFO 31440 --- [alianzapro] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-02-01T20:40:20.388-05:00  INFO 31440 --- [alianzapro] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 57 ms. Found 5 JPA repository interfaces.
+2025-02-01T20:40:20.871-05:00  INFO 31440 --- [alianzapro] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-02-01T20:40:20.880-05:00  INFO 31440 --- [alianzapro] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-02-01T20:40:20.881-05:00  INFO 31440 --- [alianzapro] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.30]
+2025-02-01T20:40:20.932-05:00  INFO 31440 --- [alianzapro] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-02-01T20:40:20.932-05:00  INFO 31440 --- [alianzapro] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1080 ms
+2025-02-01T20:40:21.048-05:00  INFO 31440 --- [alianzapro] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-02-01T20:40:21.094-05:00  INFO 31440 --- [alianzapro] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.3.Final
+2025-02-01T20:40:21.120-05:00  INFO 31440 --- [alianzapro] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-02-01T20:40:21.328-05:00  INFO 31440 --- [alianzapro] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-02-01T20:40:21.355-05:00  INFO 31440 --- [alianzapro] [main] com.zaxxer.hikari.HikariDataSource       : HikariCP - Starting...
+2025-02-01T20:40:43.357-05:00 ERROR 31440 --- [alianzapro] [main] com.zaxxer.hikari.pool.HikariPool        : HikariCP - Exception during pool initialization.
+
+org.postgresql.util.PSQLException: SCRAM authentication failed: Invalid state for processing server final message
+	at org.postgresql.core.v3.ScramAuthenticator.handleAuthenticationSASLFinal(ScramAuthenticator.java:176) ~[postgresql-42.7.4.jar:42.7.4]
+	at org.postgresql.core.v3.ConnectionFactoryImpl.doAuthentication(ConnectionFactoryImpl.java:874) ~[postgresql-42.7.4.jar:42.7.4]
+	at org.postgresql.core.v3.ConnectionFactoryImpl.tryConnect(ConnectionFactoryImpl.java:213) ~[postgresql-42.7.4.jar:42.7.4]
+	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:268) ~[postgresql-42.7.4.jar:42.7.4]
+	at org.postgresql.core.ConnectionFactory.openConnection(ConnectionFactory.java:54) ~[postgresql-42.7.4.jar:42.7.4]
+	at org.postgresql.jdbc.PgConnection.<init>(PgConnection.java:273) ~[postgresql-42.7.4.jar:42.7.4]
+	at org.postgresql.Driver.makeConnection(Driver.java:446) ~[postgresql-42.7.4.jar:42.7.4]
+	at org.postgresql.Driver.connect(Driver.java:298) ~[postgresql-42.7.4.jar:42.7.4]
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:138) ~[HikariCP-5.0.1.jar:na]
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:359) ~[HikariCP-5.0.1.jar:na]
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:201) ~[HikariCP-5.0.1.jar:na]
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:470) ~[HikariCP-5.0.1.jar:na]
+	at com.zaxxer.hikari.pool.HikariPool.checkFailFast(HikariPool.java:561) ~[HikariCP-5.0.1.jar:na]
+	at com.zaxxer.hikari.pool.HikariPool.<init>(HikariPool.java:100) ~[HikariCP-5.0.1.jar:na]
+	at com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:112) ~[HikariCP-5.0.1.jar:na]
+	at org.hibernate.engine.jdbc.connections.internal.DatasourceConnectionProviderImpl.getConnection(DatasourceConnectionProviderImpl.java:122) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess.obtainConnection(JdbcEnvironmentInitiator.java:439) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
+	at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcIsolationDelegate.delegateWork(JdbcIsolationDelegate.java:61) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.getJdbcEnvironmentUsingJdbcMetadata(JdbcEnvironmentInitiator.java:292) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:124) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:78) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
+	at org.hibernate.boot.registry.internal.StandardServiceRegistryImpl.initiateService(StandardServiceRegistryImpl.java:130) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.createService(AbstractServiceRegistryImpl.java:263) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:238) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:215) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
+	at org.hibernate.boot.model.relational.Database.<init>(Database.java:45) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
+	at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.getDatabase(InFlightMetadataCollectorImpl.java:221) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
+	at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.<init>(InFlightMetadataCollectorImpl.java:189) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
+	at org.hibernate.boot.model.process.spi.MetadataBuildingProcess.complete(MetadataBuildingProcess.java:171) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.metadata(EntityManagerFactoryBuilderImpl.java:1431) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1502) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:75) ~[spring-orm-6.1.13.jar:6.1.13]
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:390) ~[spring-orm-6.1.13.jar:6.1.13]
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:409) ~[spring-orm-6.1.13.jar:6.1.13]
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:396) ~[spring-orm-6.1.13.jar:6.1.13]
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:366) ~[spring-orm-6.1.13.jar:6.1.13]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1853) ~[spring-beans-6.1.13.jar:6.1.13]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1802) ~[spring-beans-6.1.13.jar:6.1.13]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:600) ~[spring-beans-6.1.13.jar:6.1.13]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:522) ~[spring-beans-6.1.13.jar:6.1.13]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:337) ~[spring-beans-6.1.13.jar:6.1.13]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-6.1.13.jar:6.1.13]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:335) ~[spring-beans-6.1.13.jar:6.1.13]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:205) ~[spring-beans-6.1.13.jar:6.1.13]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:954) ~[spring-context-6.1.13.jar:6.1.13]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:625) ~[spring-context-6.1.13.jar:6.1.13]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146) ~[spring-boot-3.3.4.jar:3.3.4]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754) ~[spring-boot-3.3.4.jar:3.3.4]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:456) ~[spring-boot-3.3.4.jar:3.3.4]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:335) ~[spring-boot-3.3.4.jar:3.3.4]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1363) ~[spring-boot-3.3.4.jar:3.3.4]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1352) ~[spring-boot-3.3.4.jar:3.3.4]
+	at com.backend.alianzapro.AlianzaproApplication.main(AlianzaproApplication.java:10) ~[classes/:na]
+Caused by: java.lang.IllegalStateException: Invalid state for processing server final message
+	at org.postgresql.shaded.com.ongres.scram.client.ScramClient.serverFinalMessage(ScramClient.java:211) ~[postgresql-42.7.4.jar:42.7.4]
+	at org.postgresql.core.v3.ScramAuthenticator.handleAuthenticationSASLFinal(ScramAuthenticator.java:173) ~[postgresql-42.7.4.jar:42.7.4]
+	... 52 common frames omitted
+
+2025-02-01T20:40:43.368-05:00  WARN 31440 --- [alianzapro] [main] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 0, SQLState: 08004
+2025-02-01T20:40:43.369-05:00 ERROR 31440 --- [alianzapro] [main] o.h.engine.jdbc.spi.SqlExceptionHelper   : SCRAM authentication failed: Invalid state for processing server final message
+2025-02-01T20:40:43.370-05:00  WARN 31440 --- [alianzapro] [main] o.h.e.j.e.i.JdbcEnvironmentInitiator     : HHH000342: Could not obtain connection to query metadata
+
+org.hibernate.exception.JDBCConnectionException: unable to obtain isolated JDBC connection [SCRAM authentication failed: Invalid state for processing server final message] [n/a]
+	at org.hibernate.exception.internal.SQLStateConversionDelegate.convert(SQLStateConversionDelegate.java:100) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
+	at org.hibernate.exception.internal.StandardSQLExceptionConverter.convert(StandardSQLExceptionConverter.java:58) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
+	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:108) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
+	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:94) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
+	at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcIsolationDelegate.delegateWork(JdbcIsolationDelegate.java:116) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.getJdbcEnvironmentUsingJdbcMetadata(JdbcEnvironmentInitiator.java:292) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:124) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:78) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
+	at org.hibernate.boot.registry.internal.StandardServiceRegistryImpl.initiateService(StandardServiceRegistryImpl.java:130) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.createService(AbstractServiceRegistryImpl.java:263) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:238) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:215) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
+	at org.hibernate.boot.model.relational.Database.<init>(Database.java:45) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
+	at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.getDatabase(InFlightMetadataCollectorImpl.java:221) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
+	at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.<init>(InFlightMetadataCollectorImpl.java:189) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
+	at org.hibernate.boot.model.process.spi.MetadataBuildingProcess.complete(MetadataBuildingProcess.java:171) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.metadata(EntityManagerFactoryBuilderImpl.java:1431) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1502) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:75) ~[spring-orm-6.1.13.jar:6.1.13]
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:390) ~[spring-orm-6.1.13.jar:6.1.13]
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:409) ~[spring-orm-6.1.13.jar:6.1.13]
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:396) ~[spring-orm-6.1.13.jar:6.1.13]
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:366) ~[spring-orm-6.1.13.jar:6.1.13]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1853) ~[spring-beans-6.1.13.jar:6.1.13]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1802) ~[spring-beans-6.1.13.jar:6.1.13]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:600) ~[spring-beans-6.1.13.jar:6.1.13]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:522) ~[spring-beans-6.1.13.jar:6.1.13]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:337) ~[spring-beans-6.1.13.jar:6.1.13]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-6.1.13.jar:6.1.13]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:335) ~[spring-beans-6.1.13.jar:6.1.13]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:205) ~[spring-beans-6.1.13.jar:6.1.13]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:954) ~[spring-context-6.1.13.jar:6.1.13]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:625) ~[spring-context-6.1.13.jar:6.1.13]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146) ~[spring-boot-3.3.4.jar:3.3.4]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754) ~[spring-boot-3.3.4.jar:3.3.4]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:456) ~[spring-boot-3.3.4.jar:3.3.4]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:335) ~[spring-boot-3.3.4.jar:3.3.4]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1363) ~[spring-boot-3.3.4.jar:3.3.4]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1352) ~[spring-boot-3.3.4.jar:3.3.4]
+	at com.backend.alianzapro.AlianzaproApplication.main(AlianzaproApplication.java:10) ~[classes/:na]
+Caused by: org.postgresql.util.PSQLException: SCRAM authentication failed: Invalid state for processing server final message
+	at org.postgresql.core.v3.ScramAuthenticator.handleAuthenticationSASLFinal(ScramAuthenticator.java:176) ~[postgresql-42.7.4.jar:42.7.4]
+	at org.postgresql.core.v3.ConnectionFactoryImpl.doAuthentication(ConnectionFactoryImpl.java:874) ~[postgresql-42.7.4.jar:42.7.4]
+	at org.postgresql.core.v3.ConnectionFactoryImpl.tryConnect(ConnectionFactoryImpl.java:213) ~[postgresql-42.7.4.jar:42.7.4]
+	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:268) ~[postgresql-42.7.4.jar:42.7.4]
+	at org.postgresql.core.ConnectionFactory.openConnection(ConnectionFactory.java:54) ~[postgresql-42.7.4.jar:42.7.4]
+	at org.postgresql.jdbc.PgConnection.<init>(PgConnection.java:273) ~[postgresql-42.7.4.jar:42.7.4]
+	at org.postgresql.Driver.makeConnection(Driver.java:446) ~[postgresql-42.7.4.jar:42.7.4]
+	at org.postgresql.Driver.connect(Driver.java:298) ~[postgresql-42.7.4.jar:42.7.4]
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:138) ~[HikariCP-5.0.1.jar:na]
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:359) ~[HikariCP-5.0.1.jar:na]
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:201) ~[HikariCP-5.0.1.jar:na]
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:470) ~[HikariCP-5.0.1.jar:na]
+	at com.zaxxer.hikari.pool.HikariPool.checkFailFast(HikariPool.java:561) ~[HikariCP-5.0.1.jar:na]
+	at com.zaxxer.hikari.pool.HikariPool.<init>(HikariPool.java:100) ~[HikariCP-5.0.1.jar:na]
+	at com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:112) ~[HikariCP-5.0.1.jar:na]
+	at org.hibernate.engine.jdbc.connections.internal.DatasourceConnectionProviderImpl.getConnection(DatasourceConnectionProviderImpl.java:122) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess.obtainConnection(JdbcEnvironmentInitiator.java:439) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
+	at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcIsolationDelegate.delegateWork(JdbcIsolationDelegate.java:61) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
+	... 35 common frames omitted
+Caused by: java.lang.IllegalStateException: Invalid state for processing server final message
+	at org.postgresql.shaded.com.ongres.scram.client.ScramClient.serverFinalMessage(ScramClient.java:211) ~[postgresql-42.7.4.jar:42.7.4]
+	at org.postgresql.core.v3.ScramAuthenticator.handleAuthenticationSASLFinal(ScramAuthenticator.java:173) ~[postgresql-42.7.4.jar:42.7.4]
+	... 52 common frames omitted
+
+2025-02-01T20:40:43.393-05:00  WARN 31440 --- [alianzapro] [main] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-02-01T20:40:44.047-05:00  INFO 31440 --- [alianzapro] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-02-01T20:40:44.061-05:00  INFO 31440 --- [alianzapro] [main] com.zaxxer.hikari.HikariDataSource       : HikariCP - Starting...
+2025-02-01T20:40:46.292-05:00  INFO 31440 --- [alianzapro] [main] com.zaxxer.hikari.pool.HikariPool        : HikariCP - Added connection org.postgresql.jdbc.PgConnection@1e4a4ed5
+2025-02-01T20:40:46.293-05:00  INFO 31440 --- [alianzapro] [main] com.zaxxer.hikari.HikariDataSource       : HikariCP - Start completed.
+2025-02-01T20:41:01.302-05:00  WARN 31440 --- [alianzapro] [HikariCP housekeeper] com.zaxxer.hikari.pool.ProxyLeakTask     : Connection leak detection triggered for org.postgresql.jdbc.PgConnection@1e4a4ed5 on thread main, stack trace follows
+
+java.lang.Exception: Apparent connection leak detected
+	at com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:128) ~[HikariCP-5.0.1.jar:na]
+	at org.hibernate.engine.jdbc.connections.internal.DatasourceConnectionProviderImpl.getConnection(DatasourceConnectionProviderImpl.java:122) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess.obtainConnection(JdbcEnvironmentInitiator.java:439) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
+	at org.hibernate.resource.transaction.backend.jdbc.internal.DdlTransactionIsolatorNonJtaImpl.getIsolatedConnection(DdlTransactionIsolatorNonJtaImpl.java:46) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
+	at org.hibernate.resource.transaction.backend.jdbc.internal.DdlTransactionIsolatorNonJtaImpl.getIsolatedConnection(DdlTransactionIsolatorNonJtaImpl.java:39) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
+	at org.hibernate.tool.schema.internal.exec.ImprovedExtractionContextImpl.getJdbcConnection(ImprovedExtractionContextImpl.java:63) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
+	at org.hibernate.tool.schema.extract.spi.ExtractionContext.getQueryResults(ExtractionContext.java:43) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
+	at org.hibernate.tool.schema.extract.internal.SequenceInformationExtractorLegacyImpl.extractMetadata(SequenceInformationExtractorLegacyImpl.java:39) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
+	at org.hibernate.tool.schema.extract.internal.DatabaseInformationImpl.initializeSequences(DatabaseInformationImpl.java:66) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
+	at org.hibernate.tool.schema.extract.internal.DatabaseInformationImpl.<init>(DatabaseInformationImpl.java:60) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
+	at org.hibernate.tool.schema.internal.Helper.buildDatabaseInformation(Helper.java:185) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.doMigration(AbstractSchemaMigrator.java:100) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.performDatabaseAction(SchemaManagementToolCoordinator.java:280) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.lambda$process$5(SchemaManagementToolCoordinator.java:144) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
+	at java.base/java.util.HashMap.forEach(HashMap.java:1421) ~[na:na]
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.process(SchemaManagementToolCoordinator.java:141) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
+	at org.hibernate.boot.internal.SessionFactoryObserverForSchemaExport.sessionFactoryCreated(SessionFactoryObserverForSchemaExport.java:37) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
+	at org.hibernate.internal.SessionFactoryObserverChain.sessionFactoryCreated(SessionFactoryObserverChain.java:35) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
+	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:322) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
+	at org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:457) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1506) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:75) ~[spring-orm-6.1.13.jar:6.1.13]
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:390) ~[spring-orm-6.1.13.jar:6.1.13]
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:409) ~[spring-orm-6.1.13.jar:6.1.13]
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:396) ~[spring-orm-6.1.13.jar:6.1.13]
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:366) ~[spring-orm-6.1.13.jar:6.1.13]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1853) ~[spring-beans-6.1.13.jar:6.1.13]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1802) ~[spring-beans-6.1.13.jar:6.1.13]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:600) ~[spring-beans-6.1.13.jar:6.1.13]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:522) ~[spring-beans-6.1.13.jar:6.1.13]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:337) ~[spring-beans-6.1.13.jar:6.1.13]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-6.1.13.jar:6.1.13]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:335) ~[spring-beans-6.1.13.jar:6.1.13]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:205) ~[spring-beans-6.1.13.jar:6.1.13]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:954) ~[spring-context-6.1.13.jar:6.1.13]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:625) ~[spring-context-6.1.13.jar:6.1.13]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146) ~[spring-boot-3.3.4.jar:3.3.4]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754) ~[spring-boot-3.3.4.jar:3.3.4]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:456) ~[spring-boot-3.3.4.jar:3.3.4]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:335) ~[spring-boot-3.3.4.jar:3.3.4]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1363) ~[spring-boot-3.3.4.jar:3.3.4]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1352) ~[spring-boot-3.3.4.jar:3.3.4]
+	at com.backend.alianzapro.AlianzaproApplication.main(AlianzaproApplication.java:10) ~[classes/:na]
+
+2025-02-01T20:41:45.987-05:00  INFO 31440 --- [alianzapro] [main] com.zaxxer.hikari.pool.ProxyLeakTask     : Previously reported leaked connection org.postgresql.jdbc.PgConnection@1e4a4ed5 on thread main was returned to the pool (unleaked)
+2025-02-01T20:41:45.989-05:00  INFO 31440 --- [alianzapro] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-02-01T20:41:46.326-05:00  WARN 31440 --- [alianzapro] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-02-01T20:41:46.341-05:00  WARN 31440 --- [alianzapro] [main] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: 526e3c20-883a-4d55-9358-24338b69057b
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2025-02-01T20:41:46.352-05:00  INFO 31440 --- [alianzapro] [main] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+2025-02-01T20:41:46.541-05:00 DEBUG 31440 --- [alianzapro] [main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with filters: DisableEncodeUrlFilter, WebAsyncManagerIntegrationFilter, SecurityContextHolderFilter, HeaderWriterFilter, LogoutFilter, RequestCacheAwareFilter, SecurityContextHolderAwareRequestFilter, AnonymousAuthenticationFilter, ExceptionTranslationFilter, AuthorizationFilter
+2025-02-01T20:41:46.649-05:00  WARN 31440 --- [alianzapro] [main] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2025-02-01T20:41:46.729-05:00  INFO 31440 --- [alianzapro] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-02-01T20:41:46.741-05:00  INFO 31440 --- [alianzapro] [main] c.b.alianzapro.AlianzaproApplication     : Started AlianzaproApplication in 87.232 seconds (process running for 87.485)
+2025-02-01T20:41:46.792-05:00  INFO 31440 --- [alianzapro] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-02-01T20:41:46.794-05:00  INFO 31440 --- [alianzapro] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariCP - Shutdown initiated...
+2025-02-01T20:41:49.024-05:00  INFO 31440 --- [alianzapro] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariCP - Shutdown completed.
+2025-02-01T20:48:02.949-05:00  INFO 15368 --- [alianzapro] [main] c.b.alianzapro.AlianzaproApplication     : Starting AlianzaproApplication using Java 17.0.10 with PID 15368 (E:\Desktop\Nueva carpeta (20)\alianzapro_back-main\target\classes started by RYZEN in E:\Desktop\Nueva carpeta (20)\alianzapro_back-main)
+2025-02-01T20:48:02.951-05:00  INFO 15368 --- [alianzapro] [main] c.b.alianzapro.AlianzaproApplication     : No active profile set, falling back to 1 default profile: "default"
+2025-02-01T20:48:03.494-05:00  INFO 15368 --- [alianzapro] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-02-01T20:48:03.550-05:00  INFO 15368 --- [alianzapro] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 49 ms. Found 5 JPA repository interfaces.
+2025-02-01T20:48:04.054-05:00  INFO 15368 --- [alianzapro] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-02-01T20:48:04.066-05:00  INFO 15368 --- [alianzapro] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-02-01T20:48:04.066-05:00  INFO 15368 --- [alianzapro] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.30]
+2025-02-01T20:48:04.127-05:00  INFO 15368 --- [alianzapro] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-02-01T20:48:04.128-05:00  INFO 15368 --- [alianzapro] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1143 ms
+2025-02-01T20:48:04.251-05:00  INFO 15368 --- [alianzapro] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-02-01T20:48:04.290-05:00  INFO 15368 --- [alianzapro] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.3.Final
+2025-02-01T20:48:04.316-05:00  INFO 15368 --- [alianzapro] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-02-01T20:48:04.535-05:00  INFO 15368 --- [alianzapro] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-02-01T20:48:04.561-05:00  INFO 15368 --- [alianzapro] [main] com.zaxxer.hikari.HikariDataSource       : HikariCP - Starting...
+2025-02-01T20:48:07.223-05:00  INFO 15368 --- [alianzapro] [main] com.zaxxer.hikari.pool.HikariPool        : HikariCP - Added connection org.postgresql.jdbc.PgConnection@37e55819
+2025-02-01T20:48:07.224-05:00  INFO 15368 --- [alianzapro] [main] com.zaxxer.hikari.HikariDataSource       : HikariCP - Start completed.
+2025-02-01T20:48:07.424-05:00  WARN 15368 --- [alianzapro] [main] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-02-01T20:48:08.414-05:00  INFO 15368 --- [alianzapro] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-02-01T20:48:09.112-05:00  INFO 15368 --- [alianzapro] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-02-01T20:48:09.422-05:00  WARN 15368 --- [alianzapro] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-02-01T20:48:09.439-05:00  WARN 15368 --- [alianzapro] [main] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: 04f647d9-870a-4f78-bc3b-925c18183517
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2025-02-01T20:48:09.453-05:00  INFO 15368 --- [alianzapro] [main] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+2025-02-01T20:48:09.671-05:00 DEBUG 15368 --- [alianzapro] [main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with filters: DisableEncodeUrlFilter, WebAsyncManagerIntegrationFilter, SecurityContextHolderFilter, HeaderWriterFilter, LogoutFilter, RequestCacheAwareFilter, SecurityContextHolderAwareRequestFilter, AnonymousAuthenticationFilter, ExceptionTranslationFilter, AuthorizationFilter
+2025-02-01T20:48:09.783-05:00  WARN 15368 --- [alianzapro] [main] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2025-02-01T20:48:09.874-05:00  INFO 15368 --- [alianzapro] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-02-01T20:48:09.883-05:00  INFO 15368 --- [alianzapro] [main] c.b.alianzapro.AlianzaproApplication     : Started AlianzaproApplication in 7.243 seconds (process running for 7.49)
+2025-02-01T20:54:04.193-05:00  INFO 15368 --- [alianzapro] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-02-01T20:54:04.195-05:00  INFO 15368 --- [alianzapro] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariCP - Shutdown initiated...
+2025-02-01T20:54:04.198-05:00  INFO 15368 --- [alianzapro] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariCP - Shutdown completed.
+2025-02-01T20:54:10.062-05:00  INFO 31092 --- [alianzapro] [main] c.b.alianzapro.AlianzaproApplication     : Starting AlianzaproApplication using Java 17.0.10 with PID 31092 (E:\Desktop\Nueva carpeta (20)\alianzapro_back-main\target\classes started by RYZEN in E:\Desktop\Nueva carpeta (20)\alianzapro_back-main)
+2025-02-01T20:54:10.064-05:00  INFO 31092 --- [alianzapro] [main] c.b.alianzapro.AlianzaproApplication     : No active profile set, falling back to 1 default profile: "default"
+2025-02-01T20:54:10.624-05:00  INFO 31092 --- [alianzapro] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-02-01T20:54:10.683-05:00  INFO 31092 --- [alianzapro] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 51 ms. Found 5 JPA repository interfaces.
+2025-02-01T20:54:11.189-05:00  INFO 31092 --- [alianzapro] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-02-01T20:54:11.202-05:00  INFO 31092 --- [alianzapro] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-02-01T20:54:11.202-05:00  INFO 31092 --- [alianzapro] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.30]
+2025-02-01T20:54:11.257-05:00  INFO 31092 --- [alianzapro] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-02-01T20:54:11.258-05:00  INFO 31092 --- [alianzapro] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1157 ms
+2025-02-01T20:54:11.376-05:00  INFO 31092 --- [alianzapro] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-02-01T20:54:11.421-05:00  INFO 31092 --- [alianzapro] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.3.Final
+2025-02-01T20:54:11.447-05:00  INFO 31092 --- [alianzapro] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-02-01T20:54:11.666-05:00  INFO 31092 --- [alianzapro] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-02-01T20:54:11.692-05:00  INFO 31092 --- [alianzapro] [main] com.zaxxer.hikari.HikariDataSource       : HikariCP - Starting...
+2025-02-01T20:54:13.415-05:00  INFO 31092 --- [alianzapro] [main] com.zaxxer.hikari.pool.HikariPool        : HikariCP - Added connection org.postgresql.jdbc.PgConnection@6248cfab
+2025-02-01T20:54:13.418-05:00  INFO 31092 --- [alianzapro] [main] com.zaxxer.hikari.HikariDataSource       : HikariCP - Start completed.
+2025-02-01T20:54:13.596-05:00  WARN 31092 --- [alianzapro] [main] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-02-01T20:54:14.534-05:00  INFO 31092 --- [alianzapro] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-02-01T20:54:15.211-05:00  INFO 31092 --- [alianzapro] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-02-01T20:54:15.533-05:00  WARN 31092 --- [alianzapro] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-02-01T20:54:15.551-05:00  WARN 31092 --- [alianzapro] [main] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: 45e0daea-6e17-4c12-afa7-026ec591fd30
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2025-02-01T20:54:15.565-05:00  INFO 31092 --- [alianzapro] [main] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+2025-02-01T20:54:15.768-05:00 DEBUG 31092 --- [alianzapro] [main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with filters: DisableEncodeUrlFilter, WebAsyncManagerIntegrationFilter, SecurityContextHolderFilter, HeaderWriterFilter, LogoutFilter, RequestCacheAwareFilter, SecurityContextHolderAwareRequestFilter, AnonymousAuthenticationFilter, ExceptionTranslationFilter, AuthorizationFilter
+2025-02-01T20:54:15.878-05:00  WARN 31092 --- [alianzapro] [main] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2025-02-01T20:54:15.953-05:00  INFO 31092 --- [alianzapro] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-02-01T20:54:15.961-05:00  INFO 31092 --- [alianzapro] [main] c.b.alianzapro.AlianzaproApplication     : Started AlianzaproApplication in 6.215 seconds (process running for 6.484)
